@@ -18,8 +18,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
     public ngOnDestroy() {
 
-        window[ 'app' ].namespace.messageSend = null;
-        window[ 'app' ].namespace.gameStart = null;
+        window[ 'app' ].namespace.myAngularMethod = null;
 
     }
 
